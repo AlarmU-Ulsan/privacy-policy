@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>개인정보 처리방침 | 알림IT</title>
+  <meta name="description" content="알림IT의 개인정보 처리방침 안내 페이지입니다. 수집 정보: 디바이스 ID, FCM 토큰. 목적: 사용자 휴대폰 알림 발송." />
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="개인정보 처리방침 | 알림IT" />
+  <meta property="og:description" content="알림IT의 개인정보 처리방침 안내 페이지입니다. 수집 정보: 디바이스 ID, FCM 토큰. 목적: 사용자 휴대폰 알림 발송." />
+  <meta property="og:image" content="https://leekuejea.github.io/alarmIT/og-image.png" />
+  <meta property="og:url" content="https://leekuejea.github.io/alarmIT/" />
+  <meta property="og:locale" content="ko_KR" />
+
+  <!-- Favicon (선택) -->
+  <link rel="icon" href="https://leekuejea.github.io/alarmIT/favicon.ico" />
+
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      a[href]:after { content: " (" attr(href) ")"; font-size: 0.875rem; }
+    }
+  </style>
+
+  <!-- 구조화 데이터(JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "개인정보 처리방침 | 알림IT",
+    "description": "알림IT 개인정보 처리방침",
+    "inLanguage": "ko",
+    "dateModified": "2025-10-11",
+    "publisher": {
+      "@type": "Organization",
+      "name": "알림IT",
+      "url": "https://leekuejea.github.io/alarmIT/"
+    }
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <header class="border-b bg-white/80 backdrop-blur sticky top-0 z-10">
+    <div class="max-w-3xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-sky-500/10 grid place-items-center">
+          <span class="text-sky-600 font-bold">ⓘ</span>
+        </div>
+        <h1 class="text-lg sm:text-xl font-semibold">개인정보 처리방침</h1>
+      </div>
+      <div class="flex items-center gap-2 no-print">
+        <button onclick="window.print()" class="px-3 py-2 text-sm rounded-xl bg-slate-900 text-white hover:bg-slate-800">인쇄/저장(PDF)</button>
+        <button id="toggleDark" class="px-3 py-2 text-sm rounded-xl bg-white border hover:bg-slate-50">다크 모드</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-8">
+    <section class="bg-white border rounded-2xl p-6 shadow-sm">
+      <h2 class="text-2xl font-bold mb-2">알림IT 개인정보 처리방침</h2>
+      <p class="text-sm text-slate-500 mb-4">
+        시행일자: <time datetime="2025-10-11">2025년 10월 11일</time> · 버전: v1.0.0
+      </p>
+      <p class="leading-7">
+        본 개인정보 처리방침은 알림IT(이하 “서비스”)에서 처리되는 개인정보에 대해 설명합니다.
+        서비스는 관련 법령을 준수하며, 서비스 제공에 꼭 필요한 최소한의 정보만을 수집·이용합니다.
+      </p>
+    </section>
+
+    <nav class="mt-8 bg-white border rounded-2xl p-4 shadow-sm">
+      <h3 class="font-semibold mb-2">목차</h3>
+      <ol class="list-decimal list-inside space-y-1 text-slate-700">
+        <li><a class="underline hover:no-underline" href="#what-we-collect">수집하는 개인정보 항목</a></li>
+        <li><a class="underline hover:no-underline" href="#purpose">개인정보의 수집·이용 목적 및 법적 근거</a></li>
+        <li><a class="underline hover:no-underline" href="#processing">처리 및 보관</a></li>
+        <li><a class="underline hover:no-underline" href="#third-parties">제3자 제공 및 처리위탁</a></li>
+        <li><a class="underline hover:no-underline" href="#intl">국외 이전</a></li>
+        <li><a class="underline hover:no-underline" href="#security">안전성 확보 조치</a></li>
+        <li><a class="underline hover:no-underline" href="#rights">이용자 권리 및 행사 방법</a></li>
+        <li><a class="underline hover:no-underline" href="#children">아동의 개인정보</a></li>
+        <li><a class="underline hover:no-underline" href="#changes">처리방침 변경</a></li>
+        <li><a class="underline hover:no-underline" href="#contact">문의처</a></li>
+      </ol>
+    </nav>
+
+    <section id="what-we-collect" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">1) 수집하는 개인정보 항목</h3>
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>디바이스 ID</strong>: 기기 식별을 위한 식별자</li>
+        <li><strong>FCM 토큰</strong>: 푸시 알림 발송을 위한 토큰</li>
+      </ul>
+      <p class="mt-4 text-slate-600 text-sm">※ 위치, 주소록, 사진, 결제정보 등 위 외의 개인정보는 수집하지 않습니다.</p>
+    </section>
+
+    <section id="purpose" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">2) 개인정보의 수집·이용 목적 및 법적 근거</h3>
+      <p class="mb-2">수집된 디바이스 ID와 FCM 토큰은 <strong>사용자 휴대폰에 알림을 발송</strong>하기 위한 목적으로만 이용됩니다.</p>
+      <p class="text-sm text-slate-600">
+        법적 근거: 이용자의 동의(개인정보보호법 제15조), 정보통신망법 및 관련 지침.
+      </p>
+    </section>
+
+    <section id="processing" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">3) 개인정보의 처리 및 보관</h3>
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>보유 기간</strong>: 알림 서비스 제공 기간 동안 보유하며, 서비스 탈퇴 시 즉시 삭제합니다. 앱 삭제 등으로 토큰이 무효화된 경우에는 전송 실패 등 확인 가능한 시점에 지체 없이 삭제합니다. 관련 법령에 별도 보관 의무가 있는 경우 예외.</li>
+        <li><strong>삭제 절차</strong>: 보유기간 경과 또는 목적 달성 시 안전한 방법으로 파기합니다.</li>
+        <li><strong>최소 수집</strong>: 알림 기능에 필요한 최소 항목만 저장하며, 광고·프로파일링 목적으로 이용하지 않습니다.</li>
+      </ul>
+    </section>
+
+    <section id="third-parties" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">4) 제3자 제공 및 처리위탁</h3>
+      <p class="mb-3">법령에 특별한 규정이 있는 경우를 제외하고, 개인정보를 제3자에게 제공하지 않습니다.</p>
+      <p class="mb-1">처리위탁: 푸시 알림 전송을 위해 Google Firebase Cloud Messaging(FCM) 사용.</p>
+      <ul class="list-disc pl-5 text-sm text-slate-700">
+        <li>수탁자: Google LLC</li>
+        <li>위탁업무: 푸시 알림 전송(토큰 관리 및 전달)</li>
+        <li>이전항목: FCM 토큰</li>
+      </ul>
+    </section>
+
+    <section id="intl" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">5) 국외 이전에 관한 안내</h3>
+      <p>FCM 등 해외 인프라를 이용하는 과정에서 개인정보(FCM 토큰)가 국외(미국 등)의 서버로 이전될 수 있습니다. 이 경우 관련 법령이 요구하는 보호조치를 준수합니다.</p>
+    </section>
+
+    <section id="security" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">6) 개인정보의 안전성 확보 조치</h3>
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>전송구간 암호화</strong>: HTTPS/TLS 적용</li>
+        <li><strong>접근 통제</strong>: 최소 권한 원칙 및 접근 기록 관리</li>
+        <li><strong>보관 분리</strong>: 서비스 데이터와 분리 저장 및 불필요 시 즉시 파기</li>
+      </ul>
+    </section>
+
+    <section id="rights" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">7) 이용자의 권리 및 행사 방법</h3>
+      <ul class="list-disc pl-5 space-y-2">
+        <li>개인정보 열람·정정·삭제·처리정지 요구가 가능합니다.</li>
+        <li>앱 내 설정에서 푸시 알림 수신/차단을 관리할 수 있습니다.</li>
+        <li>아래 문의처로 요청 시, 법령상 예외 사유가 없는 한 지체 없이 조치합니다.</li>
+      </ul>
+    </section>
+
+    <section id="children" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">8) 아동의 개인정보</h3>
+      <p>본 서비스는 만 14세 미만 아동을 대상으로 하지 않으며, 만 14세 미만임이 신고·문의 등으로 확인되는 경우 해당 정보는 즉시 삭제합니다.</p>
+    </section>
+
+    <section id="changes" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">9) 처리방침 변경</h3>
+      <p>본 방침의 내용이 변경되는 경우, 시행 7일 전(이용자에게 불리한 변경은 30일 전) 앱 내 공지 또는 본 웹페이지 공지를 통해 안내합니다.</p>
+    </section>
+
+    <section id="contact" class="mt-8 bg-white border rounded-2xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold mb-4">10) 문의처</h3>
+      <ul class="list-disc pl-5 space-y-1">
+        <li>운영 주체: <strong>알림IT 운영팀</strong></li>
+        <li>이메일: <a class="underline" href="mailto:asdf009d72@gmail.com">asdf009d72@gmail.com</a></li>
+        <!-- 주소 표기는 선택 사항입니다. 필요 시 아래 줄을 해제하세요.
+        <li>주소: 울산대학교 IT융합학부</li>
+        -->
+      </ul>
+    </section>
+
+    <footer class="mt-10 py-6 text-center text-sm text-slate-500">
+      <p>© <span id="year"></span> 알림IT. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    // 연도 자동 업데이트
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // 다크 모드 토글 (간단 버전)
+    const root = document.documentElement;
+    const toggleBtn = document.getElementById('toggleDark');
+    const THEME_KEY = 'prefers-dark';
+    function applyTheme() {
+      const dark = localStorage.getItem(THEME_KEY) === '1';
+      document.body.classList.toggle('bg-slate-900', dark);
+      document.body.classList.toggle('text-slate-100', dark);
+    }
+    toggleBtn.addEventListener('click', () => {
+      const current = localStorage.getItem(THEME_KEY) === '1';
+      localStorage.setItem(THEME_KEY, current ? '0' : '1');
+      applyTheme();
+    });
+    applyTheme();
+  </script>
+</body>
+</html>
